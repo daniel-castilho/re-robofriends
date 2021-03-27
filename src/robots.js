@@ -46,5 +46,17 @@ export const robots = [
     name: 'Top Man',
     username: 'Top',
     email: 'top-mand@megaman.ca'
+  },
+  {
+    id: 9,
+    name: 'Proto Man',
+    username: 'Proto',
+    email: 'proto@megaman.ca'
+  },
+  {
+    id: 10,
+    name: 'Mega Man',
+    username: 'Mega',
+    email: 'mega-man@megaman.ca'
   }
 ];
