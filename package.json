@@ -1,6 +1,6 @@
 {
   "name": "robofriends",
-  "homepage": "https://daniel-castilho.github.io/re-robofriends",
+  "homepage": "https://robofriends-daniel-castilho.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
