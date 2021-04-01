@@ -1,5 +1,4 @@
 import React from "react";
-import { Provider } from "react-redux";
 import { shallow } from "enzyme";
 import MainPage from "./MainPage";
 
@@ -10,7 +9,7 @@ beforeEach(() => {
 		onRequestRobots: jest.fn(),
 		robots: [],
 		searchField: "",
-		isPending: false,
+		isPending: true,
 	};
 	wrapper = shallow(<MainPage {...mockProps} />);
 });
@@ -19,7 +18,7 @@ it("renders without crashing", () => {
 	expect(wrapper).toMatchSnapshot();
 });
 
-it("fileters Robots", () => {
+it("filters Robots", () => {
 	const mockProps = {
 		onRequestRobots: jest.fn(),
 		robots: [],
