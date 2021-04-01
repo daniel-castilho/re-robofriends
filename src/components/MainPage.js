@@ -6,6 +6,8 @@ import Scroll from "./Scroll";
 import ErrorBoundry from "./ErrorBoundry";
 import Header from "./Header";
 
+import './MainPage.css';
+
 export class MainPage extends Component {
 	componentDidMount() {
 		this.props.onRequestRobots();
